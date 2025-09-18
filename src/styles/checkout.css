@@ -1,0 +1,44 @@
+.checkout-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.checkout-form label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.checkout-form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.checkout-form button {
+  padding: 10px 20px;
+  background: #6a1b9a;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.checkout-form button:hover {
+  background: #4b0f74;
+}
+
+.mensaje-compra {
+  text-align: center;
+  margin-bottom: 20px;
+  color: green;
+  font-weight: bold;
+}
